@@ -1,13 +1,3 @@
 {
-  "routes": [
-    { "src": "/Home", "dest": "/Home" },
-    { "src": "/Form", "dest": "/Form" },
-    { "src": "/Detail/:idCar", "dest": "/Detail/:idCar" },
-    { "src": "/About", "dest": "/About" },
-    { "src": "/registro", "dest": "/registro" },
-    { "src": "/Favorites", "dest": "/Favorites" },
-    { "src": "/Admin", "dest": "/Admin" },
-    { "src": "/login", "dest": "/login" },
-    { "src": "/(.*)", "dest": "/" }
-  ]
+  "rewrites": [{ "source": "/(.*)", "destination": "/" }]
 }
